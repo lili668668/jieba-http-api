@@ -1,0 +1,37 @@
+{
+  "name": "jieba-http-api",
+  "version": "1.0.0",
+  "description": "implement nodejieba function with http",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "nodejieba": "^2.2.4",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lili668668/jieba-http-api.git"
+  },
+  "keywords": [
+    "nodejieba",
+    "jieba",
+    "http-api"
+  ],
+  "author": "ballfish",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lili668668/jieba-http-api/issues"
+  },
+  "homepage": "https://github.com/lili668668/jieba-http-api#readme"
+}

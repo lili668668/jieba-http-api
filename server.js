@@ -14,6 +14,10 @@ app.use(bodyparser.urlencoded({
 const QUERY_WORD = "sentence";
 const SEND_WORD = "words";
 
+app.get('/', (req, res) => {
+    res.send('test ok');
+});
+
 app.get('/jieba-cut', function(request, response) {
     var sentence = request.query[QUERY_WORD];
     var words = jieba.cut(sentence);
